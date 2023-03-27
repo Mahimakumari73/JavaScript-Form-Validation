@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title> JS Form Validation</title>
+</head>
+<style>
+    body {
+        background:url(pic.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: cover;
+    }
+</style>
+<body>
+    <form name="form">
+    <table class="main">
+        <caption><h2>LOGIN FORM</h2></caption>
+        <tr>
+            <th>Name:</th>
+            <td><input type="text" name="fullname" placeholder="Enter your Full name"></td>
+        </tr><br>
+        <tr>
+            <th>Email id:</th>
+            <td><input type="text" name="email" placeholder="Enter your Email address"></td>
+        </tr><br>
+        <tr>
+            <th>Phn No:</th>
+            <td><input type="text" name="phno" placeholder="Must be 10 digits"></td>
+        </tr><br>
+        <tr>
+            <th>Password:</th>
+            <td><input type="password" name="pwd" placeholder="Must have 8 characters"></td>
+        </tr><br>
+        <tr>
+            <th>Confirm Pwd:</th>
+            <td><input type="password" name="cpwd"></td>
+        </tr>
+        <tr>
+            <td><button class="btn" type="submit" value="Submit" onclick="Formvalidate()">Submit</button></td>
+            <td><button class="btn" type="reset" value="Clear">Clear</button></td>
+        </tr>
+    </table>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

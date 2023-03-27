@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+   color:#008c76ff;
+   height:auto;
+   width: 230px;
+   padding:10px;
+   text-align:center;
+   margin:auto;
+   border:10px solid rgb(51, 153, 92);
+   border-image-slice: 1;
+   border-image-source: 
+   linear-gradient(to bottom left, rgb(192, 213, 255) ,rgba(255, 0, 183, 0.24) );
+}
+tr th{
+    color: #ff00009e;
+}
+tr{
+    margin-bottom:30px;
+}
+
+.btn{
+    height : auto;
+}
